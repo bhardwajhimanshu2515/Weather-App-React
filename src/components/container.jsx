@@ -67,8 +67,7 @@ class Container extends React.Component {
                     </label>
                 </div>
                 <div>
-                    <Loader loaded={this.state.loaded}></Loader>
-                    {weather}
+                    <Loader loaded={this.state.loaded}>{weather}</Loader>    
                 </div>
 
             </div>
