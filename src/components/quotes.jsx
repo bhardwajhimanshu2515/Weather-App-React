@@ -4,7 +4,7 @@ function Quotes() {
     return (
         <div id="info">
             <div id="info-title">
-                <h2>Quotes about Weather 😁</h2>
+                <h2>Quotes about Weather</h2>
             </div>
             <div id="other-info">
                 <div id="one">
