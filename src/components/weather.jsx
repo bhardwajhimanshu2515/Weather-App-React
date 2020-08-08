@@ -1,5 +1,6 @@
 import React from 'react';
 import './weather.css'
+
 class Weather extends React.Component {
     render(){
         return (
@@ -68,6 +69,7 @@ class Weather extends React.Component {
                     {this.props.visibility}
                     </div>
                 </div>
+                
             </div>
         );    
     }

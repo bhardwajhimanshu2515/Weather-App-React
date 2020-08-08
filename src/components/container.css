@@ -52,5 +52,7 @@
     flex-wrap: wrap;
 }
 #btn{
-    border: 0px;
+    border-style: none;
+    color: #4facfe;
+    font-size: 18px;
 }
