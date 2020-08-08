@@ -1,0 +1,125 @@
+#info{
+    width:80%;
+    margin:20px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#other-info{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#info-title{
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+#one,#two{
+    padding: 10px;
+    width:40%;
+    height:270px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.3);
+}
+p{
+    font-size: large;
+}
+@media only screen and (max-width: 360px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #result {
+        height: auto;
+    }
+
+    .insideres {
+        width: 40%;
+        height:60px;
+    }
+
+    .title {
+        font-size:16px;
+    }
+    .res{
+        font-size: 15px;
+    }
+    #other-info{
+        flex-direction: column;
+    }
+    #one,#two{
+        width:100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 411px){
+    #result {
+        height: auto;
+    }
+
+    .insideres {
+        width: 40%;
+        height:60px;
+    }
+
+    .title {
+        font-size:16px;
+    }
+    .res{
+        font-size: 15px;
+    }
+    #other-info{
+        flex-direction: column;
+    }
+    #one,#two{
+        width:100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 414px){
+    #result {
+        height: auto;
+    }
+
+    .insideres {
+        width: 40%;
+        height:60px;
+    }
+
+    .title {
+        font-size:16px;
+    }
+    .res{
+        font-size: 15px;
+    }
+    #other-info{
+        flex-direction: column;
+    }
+    #one,#two{
+        width:100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    #other-info{
+        height:auto;
+    }
+    #one,#two{
+        height:400px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    #other-info{
+        height:auto;
+    }
+    #one,#two{
+        height:400px;
+    }
+}
