@@ -5,7 +5,7 @@ This **Application** can provide **weather update** of any **city** on this **gl
 # 📱 Technology
 -   React Js
 
-Api:
+#  🧠 Api
 
 - [Link To API](http://api.weatherstack.com/current?access_key=d8fefab56305f5a343b0eab4f837fec1&query=')
 
