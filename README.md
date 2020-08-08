@@ -3,13 +3,8 @@
 This **Application** can provide **weather update** of any **city** on this **globe**.
 
 # 📱 Technology
+-   React Js
 
-Front-End :
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-  
 Api:
 
 - [Link To API](http://api.weatherstack.com/current?access_key=d8fefab56305f5a343b0eab4f837fec1&query=')
@@ -19,9 +14,7 @@ Api:
 - Enter Name Of City.
 - You will Get Temperature, Wind Speed, Humidity, Visibility, etc.
   
-
-
-
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
