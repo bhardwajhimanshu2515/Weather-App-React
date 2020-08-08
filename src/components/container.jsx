@@ -1,13 +1,16 @@
 import React from 'react';
 import './container.css'
 import Weather from './weather';
+var Loader = require('react-loader');
 class Container extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {
             location: "",
-            weather: []
+            weather: [],
+            loaded:true,
+            isSearching:false
         };
     }
     handleChange = (e) => {
@@ -15,10 +18,10 @@ class Container extends React.Component {
     };
 
     componentDidMount() {
+        
     }
 
     continue = (e) => {
-
         const { location } = this.state;
         const rawurl = 'http://api.weatherstack.com/current?access_key=d8fefab56305f5a343b0eab4f837fec1&query=' + location;
         const url = rawurl;
@@ -26,13 +29,19 @@ class Container extends React.Component {
         if (location.length < 1) {
             return alert('Enter the details');
         }
-        else {
+        else {  
+                this.setState({isSearching:true});
+                if(this.state.isSearching===true){
+                    this.setState({loaded:false});
+                }
                 fetch(url)
                     .then(response => response.json())
                     .then(data =>{
-                        this.setState({weather:[data]});
+                        this.setState({weather:[data],loaded:true});
+
                     })
                     .catch(err => console.log("error ",err)) 
+                
         }
     };
     render() {
@@ -51,7 +60,8 @@ class Container extends React.Component {
                     </label>
                 </div>
                 <div>
-                {weather}
+                    <Loader loaded={this.state.loaded}></Loader>
+                    {weather}
                 </div>
                 
             </div>
