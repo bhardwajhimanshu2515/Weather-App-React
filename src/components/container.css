@@ -51,3 +51,6 @@
     align-items: center;
     flex-wrap: wrap;
 }
+#btn{
+    border: 0px;
+}
