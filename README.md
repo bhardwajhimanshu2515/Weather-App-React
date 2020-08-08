@@ -1,4 +1,4 @@
-﻿﻿# Weather Update  🌩 
+﻿# Weather Update  🌩 
 
 This **Application** can provide **weather update** of any **city** on this **globe**.
 
