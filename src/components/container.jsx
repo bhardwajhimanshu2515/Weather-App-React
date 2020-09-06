@@ -25,7 +25,7 @@ class Container extends React.Component {
 
     continue = (e) => {
         const { location } = this.state;
-        const rawurl = 'http://api.weatherstack.com/current?access_key=d8fefab56305f5a343b0eab4f837fec1&query=' + location;
+        const rawurl = 'http://api.weatherstack.com/current?access_key=ed465f7922533af2f7bc404a4f1f497f&query=' + location;
         const url = rawurl;
         e.preventDefault();
         if (location.length < 1) {
