@@ -5,67 +5,67 @@ class Weather extends React.Component {
     render(){
         return (
             <div id="result">
-                <div id="location" class="insideres">
-                    <div class="title">
+                <div id="location" className="insideres">
+                    <div className="title">
                         Location
                     </div>
-                    <div class="res">
+                    <div className="res">
                         {this.props.location}
                     </div>
                 </div>
-                <div id="Temperature" class="insideres">
-                    <div class="title">
+                <div id="Temperature" className="insideres">
+                    <div className="title">
                         Temperature
                     </div>
-                    <div class="res">
+                    <div className="res">
                     {this.props.temperature}
                     </div>
                 </div>
-                <div id="Weather" class="insideres">
-                    <div class="title">
+                <div id="Weather" className="insideres">
+                    <div className="title">
                         Weather
                     </div>
-                    <div class="res">
+                    <div className="res">
                     {this.props.weather}
                     </div>
                 </div>
-                <div id="Windspeed" class="insideres">
-                    <div class="title">
+                <div id="Windspeed" className="insideres">
+                    <div className="title">
                         Wind Speed
                     </div>
-                    <div class="res">
+                    <div className="res">
                     {this.props.windSpeed}
                     </div>
                 </div>
-                <div id="Wind_degree" class="insideres">
-                    <div class="title">
+                <div id="Wind_degree" className="insideres">
+                    <div className="title">
                         Wind Degree
                     </div>
-                    <div class="res">
+                    <div className="res">
                     {this.props.windDegree}
                     </div>
                 </div>
-                <div id="Wind_dir" class="insideres">
-                    <div class="title">
-                        Wind Direction
+                <div id="Wind_dir" className="insideres">
+                    <div className="title">
+                        Pressure
                     </div>
-                    <div class="res">
-                    {this.props.windDir}
+                    <div className="res">
+                    {this.props.pressure}
                     </div>
                 </div>
-                <div id="Humidity" class="insideres">
-                    <div class="title">
+                <div id="Humidity" className="insideres">
+                    <div className="title">
                         Humidity
                     </div>
-                    <div class="res">
+                    <div className="res">
                     {this.props.humidity}
                     </div>
                 </div>
-                <div id="Visibility" class="insideres">
-                    <div class="title">
+                <div id="Visibility" className="insideres">
+                    <div className="title">
                         Visibility
                     </div>
-                    <div class="res">
+                    <div className="res">
                     {this.props.visibility}
                     </div>
                 </div>
