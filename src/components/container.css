@@ -10,8 +10,8 @@
 }
 
 .searchicon {
-    height: 38px;
-    width: 300px;
+    height: 35px;
+    width: 320px;
     display: flex;
     background: #f2f2f2;
     border-radius: 5px;
@@ -19,30 +19,13 @@
     margin-bottom: 25px;
 }
 
-.searchicon input {
-    height: 100%;
+.searchicon>input  {
+    height: 82%;
     width: 250px;
-    padding: 0 10px;
     color: #000;
     font-size: 16px;
-    border-radius: 5px 0 0 5px;
 }
 
-.searchicon .icon {
-    height: 100%;
-    width: 40px;
-    line-height:40px;
-    text-align: center;
-    border: 1 px solid #4facfe;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-}
-
-.searchicon .icon span {
-    color: #4facfe;
-    font-size: 18px;
-
-}
 #result{
     width:100%;
     height:auto;
@@ -51,8 +34,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
-#btn{
-    border-style: none;
-    color: #4facfe;
+.searchicon>#btn{
     font-size: 18px;
+    height: 100%;
 }

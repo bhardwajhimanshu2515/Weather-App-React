@@ -60,9 +60,7 @@ class Container extends React.Component {
             <div id="container">
                 <div className="searchicon">
                     <input type="search" placeholder="Enter City !!" type="text" name="location" value={this.state.location} onChange={this.handleChange}></input>
-                    <label className="icon">
-                        <button onClick={this.continue} id="btn"><span className="fa fa-search"></span></button>
-                    </label>
+                    <button onClick={this.continue} id="btn">Search</button>
                 </div>
                 <div>
                     {weather}
