@@ -7,8 +7,8 @@ function Navbar() {
                 Weather App
         </div>
             <div id="navlinks">
-                <a href="https://github.com/bhardwajhimanshu2515"><span className="fa fa-github"></span></a>
-                <a href="https://www.linkedin.com/in/himanshu-bhardwaj-mern-stack-developer/"><span className="fa fa-linkedin"></span></a>
+                <a href=""><span className="fa fa-github"></span></a>
+                <a href=""><span className="fa fa-linkedin"></span></a>
             </div>
         </div>
     );
